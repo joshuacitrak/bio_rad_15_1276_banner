@@ -1,0 +1,52 @@
+#bradContainer
+{
+    font-family: sans-serif;
+    position: relative;
+    width: 300px;
+    height: 250px;
+    border: 1px solid #666;
+    position:relative;
+    overflow:hidden;
+    text-decoration: none;
+    background:#33a749;
+    
+    #bradContent
+    {
+        
+        #bradFooter{
+            background:#fff;
+            width:300px;
+            height:47px;
+            position:absolute;
+            top:203px;
+            #bradFooterImageContainer{
+                background-image: url(../img/br_logo_300x250.png);
+                position:absolute;
+                top:12px;
+                left:205px;
+                width:80px;
+                height:21px;
+            }
+        }
+    }
+}
+
+/**
+--------------------------UI---------------------------
+**/
+button {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button:nth-child(1){
+  margin-left:10px;
+}
+
+#slider{
+  width: 300px;
+  height:10px;
+    margin-top:10px;
+  background: rgba(80,80,80,0.3);
+  border:1px solid rgba(102,102,102,0.5);
+}
