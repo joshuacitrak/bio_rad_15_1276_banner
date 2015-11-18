@@ -9,9 +9,76 @@
     overflow:hidden;
     text-decoration: none;
     background:#33a749;
+    -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; // IE8
+
+          /* This works in IE 8 & 9 too */
+          /* ... but also 5, 6, 7 */
+          filter: alpha(opacity=0); // IE 5-7
+
+          /* Modern Browsers */
+          opacity: 0;
     
     #bradContent
     {
+        .bradSwoosh{
+            background-image: url(../img/swoosh.svg);
+            width: 614px;
+            height: 490px;
+            position: absolute;
+        }
+        
+        #bradSvg1Container{
+            top: -220px;
+            left: -190px;
+        }
+        #bradSvg2Container{
+            //top: -200px;
+        }
+        
+        .bradTOpacity
+        {
+            -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; // IE8
+
+          /* This works in IE 8 & 9 too */
+          /* ... but also 5, 6, 7 */
+          filter: alpha(opacity=0); // IE 5-7
+
+          /* Modern Browsers */
+          opacity: 0;
+        }
+        
+        #bradT1{
+              background-image: url(../img/t1.png);
+            width:183px;
+            height:111px;
+            position: absolute;
+            left:60px;
+            top:46px;
+        }
+        #bradT2{
+              background-image: url(../img/t2.png);
+            width:157px;
+            height:70px;
+            position: absolute;
+           left:-20px;//
+            top:47px;
+        }
+        #bradT3{
+              background-image: url(../img/t3.png);
+            width:67px;
+            height:35px;
+            position: absolute;
+            top:-20px;
+            left:8px;
+        }
+        #bradT4{
+              background-image: url(../img/t4.png);
+            width:183px;
+            height:35px;
+            position: absolute;
+            top:123px;
+            left:320px;
+        }
         
         #bradFooter{
             background:#fff;

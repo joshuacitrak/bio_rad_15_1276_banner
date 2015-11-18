@@ -54,7 +54,56 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   position: relative;
   overflow: hidden;
   text-decoration: none;
-  background: #33a749; }
+  background: #33a749;
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  /* This works in IE 8 & 9 too */
+  /* ... but also 5, 6, 7 */
+  filter: alpha(opacity=0);
+  /* Modern Browsers */
+  opacity: 0; }
+  #bradContainer #bradContent .bradSwoosh {
+    background-image: url(../img/swoosh.svg);
+    width: 614px;
+    height: 490px;
+    position: absolute; }
+  #bradContainer #bradContent #bradSvg1Container {
+    top: -220px;
+    left: -190px; }
+  #bradContainer #bradContent .bradTOpacity {
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+    /* This works in IE 8 & 9 too */
+    /* ... but also 5, 6, 7 */
+    filter: alpha(opacity=0);
+    /* Modern Browsers */
+    opacity: 0; }
+  #bradContainer #bradContent #bradT1 {
+    background-image: url(../img/t1.png);
+    width: 183px;
+    height: 111px;
+    position: absolute;
+    left: 60px;
+    top: 46px; }
+  #bradContainer #bradContent #bradT2 {
+    background-image: url(../img/t2.png);
+    width: 157px;
+    height: 70px;
+    position: absolute;
+    left: -20px;
+    top: 47px; }
+  #bradContainer #bradContent #bradT3 {
+    background-image: url(../img/t3.png);
+    width: 67px;
+    height: 35px;
+    position: absolute;
+    top: -20px;
+    left: 8px; }
+  #bradContainer #bradContent #bradT4 {
+    background-image: url(../img/t4.png);
+    width: 183px;
+    height: 35px;
+    position: absolute;
+    top: 123px;
+    left: 320px; }
   #bradContainer #bradContent #bradFooter {
     background: #fff;
     width: 300px;
