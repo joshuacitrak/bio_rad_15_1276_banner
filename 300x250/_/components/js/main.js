@@ -10,14 +10,14 @@ function playAd(){
     
    tl.add(ntl)
        .to("#bradT1", .6, {y:-30, opacity:0,ease: Power3.easeOut}, 2.5)
-       .to("#bradT2", .6, {x:87, opacity:1,ease: Power3.easeOut}, 2.6)
+       .to("#bradT2", .6, {x:108, opacity:1,ease: Power3.easeOut}, 2.6)
        .to("#bradT2", .6, {x:-10, opacity:0,ease: Power3.easeOut}, 3.8)
        .to("#bradT3", .6, {y:143, opacity:1,ease: Power3.easeOut}, 3.9)
-       .to("#bradT4", .6, {x:-230, opacity:1,ease: Power3.easeOut}, 4)
+       .to("#bradT4", .6, {x:-234, opacity:1,ease: Power3.easeOut}, 4)
        .to("#bradT3", .6, {y:0, opacity:0,ease: Power3.easeOut}, 5.2)
        .to("#bradT4", .6, {x:0, opacity:0,ease: Power3.easeOut}, 5.3)
-       .to("#bradT5", .6, {y:71, opacity:1,ease: Power3.easeOut}, 5.4)
-       .to("#bradT6", .6, {y:-140, opacity:1,ease: Power3.easeOut}, 5.5);
+       .to("#bradT5", .6, {y:50, opacity:1,ease: Power3.easeOut}, 5.4)
+       .to("#bradT6", .6, {y:-163, opacity:1,ease: Power3.easeOut}, 5.5);
 };
 
 function addListeners(){

@@ -81,7 +81,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     width: 183px;
     height: 111px;
     position: absolute;
-    left: 60px;
+    left: 57px;
     top: 46px; }
   #bradContainer #bradContent #bradT2 {
     background-image: url(../img/t2.png);
@@ -89,7 +89,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     height: 70px;
     position: absolute;
     left: -20px;
-    top: 47px; }
+    top: 52px; }
   #bradContainer #bradContent #bradT3 {
     background-image: url(../img/t3.png);
     width: 67px;
@@ -110,14 +110,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     height: 30px;
     position: absolute;
     top: 20px;
-    left: 134px; }
+    left: 133px; }
   #bradContainer #bradContent #bradT6 {
     background-image: url(../img/t6.png);
     width: 144px;
     height: 30px;
     position: absolute;
     top: 270px;
-    left: 134px; }
+    left: 132px; }
   #bradContainer #bradContent #bradFooter {
     background: #fff;
     width: 300px;
