@@ -1,12 +1,13 @@
 function playAd(){  
     
     var ntl = new TimelineLite();
-    ntl.to("#bradSvg1Container", 6, {  x:60, y:53, scale:.7,rotationX:-20,  z:100, force3D:true}, "swoosh")
+    ntl.to("#bradSvg1Container", 12, {  x:120, y:105, scale:.5,rotation:-10}, "swoosh")
+        .to("#bradSvg1Container", 6, { scale:.7,rotationX:-40,  z:100, force3D:true}, "swoosh")
        .to("#bradSvg2Container", 4, {rotationX:60, x:-200, scale:0.9, z:-300, force3D:true}, "swoosh")
-       .to("#bradSvg2Container", 4, {rotationX:0,  x:-150, scale:0.7, z:-100,force3D:true}, "-=3")
-       .to("#bradSvg2Container", 4, {rotationX:-60,  x:-100, z:0,force3D:true}, "-=3")
-       .to("#bradSvg1Container", 6, {  x:120, y:105, scale:.5,rotation:-10,  z:0, force3D:true}, "-=6")
-       //.to("#bradSvg2Container", 3, {rotationX:0,  x:-50 }, "-=2"); 
+       .to("#bradSvg2Container", 4, {rotationX:0,  x:-150, scale:0.7, z:-100,force3D:true}, 4)
+       .to("#bradSvg1Container", 6, { scale:.5,rotationX:40,  z:0, force3D:true}, 6)
+        .to("#bradSvg2Container", 4, {rotationX:-60,  x:-100, z:0,force3D:true}, 8);
+      // .to("#bradSvg2Container", 3, {rotationX:0,  x:-50 }, "-=2"); 
     
    tl.add(ntl)
        .to("#bradT1", .6, {y:-30, opacity:0,ease: Power3.easeOut}, 2.5)
