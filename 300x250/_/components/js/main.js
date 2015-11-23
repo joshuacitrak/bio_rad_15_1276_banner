@@ -25,8 +25,8 @@ function playAd(){
        .to("#bradT7", .8, {x:125, opacity:1,ease: Power3.easeOut}, 7.5)
        .to("#bradT8", .8, {x:125, opacity:1,ease: Power3.easeOut}, 7.6)
        .to("#bradKidney", 4, {opacity:1, scale:1, ease: Power2.easeOut}, 8.4)
-       .to("#bradT7", .8, {x:0, opacity:0,ease: Power3.easeOut}, 8.8)
-       .to("#bradT8", .8, {x:0, opacity:0,ease: Power3.easeOut}, 8.9);
+       .to("#bradT7", .8, {x:400, opacity:0,ease: Power3.easeOut}, 9)
+       .to("#bradT8", .8, {x:400, opacity:0,ease: Power3.easeOut}, 9.1);
 };
 
 function addListeners(){
