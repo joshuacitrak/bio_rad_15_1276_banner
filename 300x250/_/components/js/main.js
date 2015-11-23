@@ -24,7 +24,9 @@ function playAd(){
        .to("#bradT6", .8, {x:250, opacity:0,ease: Power3.easeOut}, 7.4)
        .to("#bradT7", .8, {x:125, opacity:1,ease: Power3.easeOut}, 7.5)
        .to("#bradT8", .8, {x:125, opacity:1,ease: Power3.easeOut}, 7.6)
-       .to("#bradKidney", 3, {opacity:1, scale:1, ease: Power2.easeOut}, 8);
+       .to("#bradKidney", 4, {opacity:1, scale:1, ease: Power2.easeOut}, 8.4)
+       .to("#bradT7", .8, {x:0, opacity:0,ease: Power3.easeOut}, 8.8)
+       .to("#bradT8", .8, {x:0, opacity:0,ease: Power3.easeOut}, 8.9);
 };
 
 function addListeners(){
@@ -78,7 +80,7 @@ $(document).ready(function(){
     TweenLite.set("#bradContainer", {opacity:1});
     TweenLite.set("#bradSvg2Container", {opacity:.8});
     TweenLite.set("#bradSvg2Container", { scale:.4, rotation:180, x:-350, y:-200, opacity:.8});
-    TweenLite.set("#bradKidney", { scale:.4});
+    TweenLite.set("#bradKidney", { scale:.1});
     //$('#adTxt3').css('opacity', '0');
     addListeners();
     playAd();
