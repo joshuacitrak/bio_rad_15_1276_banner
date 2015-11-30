@@ -1,13 +1,13 @@
 function playAd(){  
     
     var ntl = new TimelineLite();
-    ntl.to("#bradSvg1Container", 14, {  x:120, y:105, scale:.5,rotation:-10}, "swoosh")
-        .to("#bradSvg1Container", 7, { scale:.7,rotationX:-40,  z:100, force3D:true}, "swoosh")
-       .to("#bradSvg2Container", 4, {rotationX:60, x:-200, scale:0.9, z:-300, force3D:true}, "swoosh")
-       .to("#bradSvg2Container", 4, {rotationX:0,  x:-150, scale:0.7, z:-100,force3D:true}, 4)
-       .to("#bradSvg1Container", 7, { scale:.5,rotationX:40,  z:0, force3D:true}, 6)
-        .to("#bradSvg2Container", 4, {rotationX:-60,  x:-100, z:0,force3D:true}, 8)
-        .to("#bradSvg2Container", 2, {opacity:0, rotationX:0,  x:-50 }, 12); 
+    ntl.to("#bradSvg1Container", 13, {  x:120, y:105, scale:.5,rotation:-10}, "swoosh")
+        .to("#bradSvg1Container", 6.5, { scale:.7,rotationX:-40,  z:100, force3D:true}, "swoosh")
+       .to("#bradSvg2Container", 3, {rotationX:60, x:-200, scale:0.9, z:-300, force3D:true}, "swoosh")
+       .to("#bradSvg2Container", 3, {rotationX:0,  x:-150, scale:0.7, z:-100,force3D:true}, 3)
+       .to("#bradSvg1Container", 6.5, { scale:.5,rotationX:40,  z:0, force3D:true}, 6)
+        .to("#bradSvg2Container", 3, {rotationX:-60,  x:-100, z:0,force3D:true}, 6)
+        .to("#bradSvg2Container", 3, {opacity:0, rotationX:0,  x:-50 }, 9); 
     
    tl.add(ntl)
        .to("#bradT1", .8, {y:46, opacity:1,ease: Power3.easeOut}, 0)
@@ -24,9 +24,15 @@ function playAd(){
        .to("#bradT6", .8, {x:250, opacity:0,ease: Power3.easeOut}, 7.4)
        .to("#bradT7", .8, {x:125, opacity:1,ease: Power3.easeOut}, 7.5)
        .to("#bradT8", .8, {x:125, opacity:1,ease: Power3.easeOut}, 7.6)
-       .to("#bradKidney", 4, {opacity:1, scale:1, ease: Power2.easeOut}, 8.4)
-       .to("#bradT7", .8, {x:400, opacity:0,ease: Power3.easeOut}, 9)
-       .to("#bradT8", .8, {x:400, opacity:0,ease: Power3.easeOut}, 9.1);
+       .to("#bradKidney", 3, {opacity:1, scale:1, ease: Power2.easeOut}, 9.2)
+       .to("#bradT7", .8, {x:300, opacity:0,ease: Power3.easeOut}, 9.2)
+       .to("#bradT8", .8, {x:300, opacity:0,ease: Power3.easeOut}, 9.3)
+       .from("#bradT9", .8, {x:-40, opacity:0,ease: Power3.easeOut}, 9.4)
+       .from("#bradT10", .8, {x:-60, opacity:0,ease: Power3.easeOut}, 9.5)
+       .from("#bradFlare", 1.6, {x:-320, opacity:0,ease: Power3.easeOut}, 9.7)
+       .from("#bradFooterCTA", .8, {clip:"rect(0px 0px 138px 0px)", opacity:0,ease: Power3.easeOut}, 10.8)
+       .from("#bradFooterCTAT", .8, {opacity:0, ease: Power3.easeOut}, 11.4)
+       .from("#bradKidneyFlare", 1.6, {opacity:0, ease: Power3.easeOut}, 11.4);
 };
 
 function addListeners(){
