@@ -52,8 +52,10 @@ $("#slider").slider({
 
 $(document).ready(function(){
     //set defaults
+    CSSPlugin.defaultTransformPerspective = 750;
     TweenLite.set("#bradContainer", {opacity:1});
-    //TweenLite.set("#bradSvg2Container", {opacity:.8});
+    TweenLite.set('#bradSvg1Container', {rotationX:10,rotationY:10, rotationZ:-10, x:-180, y:70, scale:.55});
+//  TweenLite.set("#bradSvg2Container", {opacity:0});
     //TweenLite.set("#bradSvg2Container", { scale:.4, rotation:180, x:-350, y:-200, opacity:.8});
     //TweenLite.set("#bradKidney", { scale:.1});
     //$('#adTxt3').css('opacity', '0');
