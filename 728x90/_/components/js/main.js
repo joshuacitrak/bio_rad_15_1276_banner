@@ -1,12 +1,12 @@
 function playAd(){  
     
     var stl = new TimelineLite();
-    stl.from('#bradSvg1Container', 15, {scale:1.6, x:-200, y:-150, rotationX:20, force3D:true})
-       .to("#bradSvg2Container", 3, {rotationX:40, x:-200, scale:0.8, z:-300, force3D:true}, 0)
-       .to("#bradSvg2Container", 3, {rotationX:0,  x:-170, scale:1, z:-100,force3D:true}, 3)
-        .to("#bradSvg2Container", 3, {rotationX:-40,  x:-140, scale:1.2, z:0,force3D:true}, 6)
-        .to("#bradSvg2Container", 3, {rotationX:0,  x:-110 }, 9)
-        .to("#bradSvg2Container", 3, {opacity:0, scale:1.4, rotationX:-40,  x:-80,ease: Power3.easeOut }, 12);
+    stl.from('#bradSvg1Container', 15, {scale:1.6, x:-200, y:-190, rotationX:20, force3D:true})
+       .to("#bradSvg2Container", 3, {rotationX:40, x:70, scale:0.9, z:-300, force3D:true}, 0)
+       .to("#bradSvg2Container", 3, {rotationX:0,  x:40, scale:1.2, z:-100,force3D:true}, 3)
+        .to("#bradSvg2Container", 3, {rotationX:-40,  x:10, scale:.9, z:0,force3D:true}, 6)
+        .to("#bradSvg2Container", 3, {rotationX:0,  x:-20 }, 9)
+        .to("#bradSvg2Container", 3, {opacity:0, scale:1.4, rotationX:-40,  x:-50,ease: Power3.easeOut }, 12);
     
     var ttl = new TimelineLite();
     ttl.from("#bradT1", .8, {y:-50, opacity:0,ease: Power3.easeOut}, 0)
@@ -91,7 +91,7 @@ $(document).ready(function(){
     //set defaults
     TweenLite.set("#bradContainer", {opacity:1});
     TweenLite.set('#bradSvg1Container', {scale:.7, x:200, y:-200, opacity:.8});
-    TweenLite.set("#bradSvg2Container", { scale:.6, rotation:180, x:-350, y:-220, opacity:.8});
+    TweenLite.set("#bradSvg2Container", { scale:.6, rotation:180, x:100, y:-180, opacity:.8});
     TweenLite.set("#bradKidney", { rotation:7});
     addListeners();
     playAd();
