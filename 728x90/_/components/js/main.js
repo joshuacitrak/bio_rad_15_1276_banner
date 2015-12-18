@@ -1,6 +1,43 @@
 function playAd(){  
     
+    var stl = new TimelineLite();
+    stl.from('#bradSvg1Container', 15, {scale:1.6, x:-200, y:-150, rotationX:20, force3D:true})
+       .to("#bradSvg2Container", 3, {rotationX:40, x:-200, scale:0.8, z:-300, force3D:true}, 0)
+       .to("#bradSvg2Container", 3, {rotationX:0,  x:-170, scale:1, z:-100,force3D:true}, 3)
+        .to("#bradSvg2Container", 3, {rotationX:-40,  x:-140, scale:1.2, z:0,force3D:true}, 6)
+        .to("#bradSvg2Container", 3, {rotationX:0,  x:-110 }, 9)
+        .to("#bradSvg2Container", 3, {opacity:0, scale:1.4, rotationX:-40,  x:-80,ease: Power3.easeOut }, 12);
+    
+    var ttl = new TimelineLite();
+    ttl.from("#bradT1", .8, {y:-50, opacity:0,ease: Power3.easeOut}, 0)
+       .to("#bradT1", .8, {y:-50, opacity:0,ease: Power3.easeOut}, 3)
+       .from("#bradT2", .8, {x:-80, opacity:0,ease: Power3.easeOut}, "-=.4")
+       .to("#bradT2", .8, {x:80, opacity:0,ease: Power3.easeOut}, "+=1")
+       .from("#bradT3", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "-=.4")
+       .from("#bradT4", .8, {x:80, opacity:0,ease: Power3.easeOut}, "-=.6")
+       .to("#bradT3", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "+=1")
+       .to("#bradT4", .8, {x:80, opacity:0,ease: Power3.easeOut}, "-=.6")
+       .from("#bradT5", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "-=.6")
+       .from("#bradT6", .8, {y:120, opacity:0,ease: Power3.easeOut}, "-=.6")
+       .to("#bradT5", .8, {x:80, opacity:0,ease: Power3.easeOut}, "+=1")
+       .to("#bradT6", .8, {x:80, opacity:0,ease: Power3.easeOut}, "-=.8")
+       .from("#bradT7", .8, {x:-80, opacity:0,ease: Power3.easeOut}, "-=.6")
+       .to("#bradT7", .8, {x:80, opacity:0,ease: Power3.easeOut}, "+=1")
+       .from("#bradT8", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "-=.6")
+       .from("#bradT9", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "-=.8");
+    
+    var ctl = new TimelineLite();
+        ctl.from("#bradKidney", 3, {opacity:0, scale:0,x:-20, ease: Power2.easeOut})
+       .from("#bradFlare", 1.5, {x:-320, opacity:0,ease: Power3.easeOut}, "-=1.6")
+       .from("#bradCtaContainer", .8, {clip:"rect(0px 0px 182px 0px)", opacity:0,ease: Power3.easeOut}, "-=1.4")
+       .from("#bradCta", .8, {opacity:0, ease: Power3.easeOut}, "-=.6")
+       .from("#bradKidneyFlare", 1.5, {opacity:0, ease: Power3.easeOut}, "-=.6");
+    
+    tl.add(stl, 0)
+    .add(ttl, 0)
+    .add(ctl, 12);
     tl.totalDuration(15);
+    
        
 };
 
@@ -53,10 +90,9 @@ $("#slider").slider({
 $(document).ready(function(){
     //set defaults
     TweenLite.set("#bradContainer", {opacity:1});
-    //TweenLite.set("#bradSvg2Container", {opacity:.8});
-    //TweenLite.set("#bradSvg2Container", { scale:.4, rotation:180, x:-350, y:-200, opacity:.8});
-    //TweenLite.set("#bradKidney", { scale:.1});
-    //$('#adTxt3').css('opacity', '0');
+    TweenLite.set('#bradSvg1Container', {scale:.7, x:200, y:-200, opacity:.8});
+    TweenLite.set("#bradSvg2Container", { scale:.6, rotation:180, x:-350, y:-220, opacity:.8});
+    TweenLite.set("#bradKidney", { rotation:7});
     addListeners();
     playAd();
 });
