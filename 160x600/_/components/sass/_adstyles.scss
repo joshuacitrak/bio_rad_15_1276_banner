@@ -109,7 +109,7 @@
         #bradT8{
             position:absolute;
             left:14px;
-            top:114px;
+            top:115px;
             width: 105px;
             height: 29px;
             background-image: url(../img/t8.png);
@@ -117,7 +117,7 @@
         #bradT9{
             position:absolute;
             left:14px;
-            top:149px;
+            top:148px;
             width: 130px;
             height: 38px;
             background-image: url(../img/t9.png);
@@ -132,17 +132,17 @@
         }
         #bradKidney{
             position:absolute;
-            width:182px;
-            height:130px;
+            width:221px;
+            height:145px;
             top:288px;
-            left:0px;
-            background-image: url(../img/kidney_no_glow.png);
+            left:-45px;
+            background-image: url(../img/kidney.png);
         }
         #bradKidneyFlare{
             position:absolute;
             width:151px;
             height:86px;
-            top:288px;
+            top:284px;
             left:5px;
             background-image: url(../img/glow.png);
         }
@@ -154,7 +154,7 @@
                 width:142px;
                 height:24px;
                 /*set clip property so that from() tween knows what the ending values should be */
-                //clip:rect(0px, 142px, 24px, 0px);
+                clip:rect(0px, 142px, 24px, 0px);
             
             #bradCta{
                 position: absolute;

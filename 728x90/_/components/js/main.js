@@ -1,7 +1,7 @@
 function playAd(){  
     
     var stl = new TimelineLite();
-    stl.from('#bradSvg1Container', 15, {scale:1.6, x:-200, y:-190, rotationX:20, force3D:true})
+    stl.from('#bradSvg1Container', 15, {scale:1.5, x:-200, y:-190, rotationX:20, force3D:true})
        .to("#bradSvg2Container", 3, {rotationX:40, x:70, scale:0.9, z:-300, force3D:true}, 0)
        .to("#bradSvg2Container", 3, {rotationX:0,  x:40, scale:1.2, z:-100,force3D:true}, 3)
         .to("#bradSvg2Container", 3, {rotationX:-40,  x:10, scale:.9, z:0,force3D:true}, 6)
@@ -35,7 +35,7 @@ function playAd(){
     
     tl.add(stl, 0)
     .add(ttl, 0)
-    .add(ctl, 12);
+    .add(ctl, 11.5);
     tl.totalDuration(15);
     
        
