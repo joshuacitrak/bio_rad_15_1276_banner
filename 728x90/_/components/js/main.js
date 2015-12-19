@@ -92,7 +92,7 @@ $(document).ready(function(){
     TweenLite.set("#bradContainer", {opacity:1});
     TweenLite.set('#bradSvg1Container', {scale:.7, x:200, y:-200, opacity:.8});
     TweenLite.set("#bradSvg2Container", { scale:.6, rotation:180, x:100, y:-180, opacity:.8});
-    TweenLite.set("#bradKidney", { rotation:7});
+    //TweenLite.set("#bradKidney", { rotation:7});
     addListeners();
     playAd();
 });

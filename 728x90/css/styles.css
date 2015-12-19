@@ -153,10 +153,10 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     background-image: url(../img/flare.png); }
   #bradContainer #bradContent #bradKidney {
     position: absolute;
-    width: 182px;
-    height: 130px;
-    top: -35px;
-    left: 332px;
+    width: 188px;
+    height: 122px;
+    top: -26px;
+    left: 322px;
     background-image: url(../img/kidney_no_glow.png); }
   #bradContainer #bradContent #bradKidneyFlare {
     position: absolute;
