@@ -63,125 +63,127 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   filter: alpha(opacity=0);
   /* Modern Browsers */
   opacity: 0; }
-  #bradContainer #bradContent .bradSwoosh {
-    background-image: url(../img/swoosh.svg);
-    width: 690px;
-    height: 550px;
-    position: absolute; }
-  #bradContainer #bradContent #bradLogoContainer {
-    background: #fff;
-    position: absolute;
-    left: 0;
-    top: 525px;
-    width: 160px;
-    height: 75px; }
-    #bradContainer #bradContent #bradLogoContainer #bradLogo {
-      background-image: url(../img/logo.png);
-      width: 82px;
-      height: 22px;
+  #bradContainer #bradContent {
+    cursor: pointer; }
+    #bradContainer #bradContent .bradSwoosh {
+      background-image: url(../img/swoosh.svg);
+      width: 690px;
+      height: 550px;
+      position: absolute; }
+    #bradContainer #bradContent #bradLogoContainer {
+      background: #fff;
       position: absolute;
-      left: 39px;
-      top: 28px; }
-  #bradContainer #bradContent #bradT1 {
-    position: absolute;
-    left: 14px;
-    top: 197px;
-    width: 136px;
-    height: 118px;
-    background-image: url(../img/t1.png); }
-  #bradContainer #bradContent #bradT2 {
-    position: absolute;
-    left: 27px;
-    top: 212px;
-    width: 105px;
-    height: 46px;
-    background-image: url(../img/t2.png); }
-  #bradContainer #bradContent #bradT3 {
-    position: absolute;
-    left: 14px;
-    top: 316px;
-    width: 50px;
-    height: 26px;
-    background-image: url(../img/t3.png); }
-  #bradContainer #bradContent #bradT4 {
-    position: absolute;
-    left: 14px;
-    top: 345px;
-    width: 133px;
-    height: 26px;
-    background-image: url(../img/t4.png); }
-  #bradContainer #bradContent #bradT5 {
-    position: absolute;
-    left: 19px;
-    top: 191px;
-    width: 101px;
-    height: 24px;
-    background-image: url(../img/t5.png); }
-  #bradContainer #bradContent #bradT6 {
-    position: absolute;
-    left: 19px;
-    top: 221px;
-    width: 117px;
-    height: 24px;
-    background-image: url(../img/t6.png); }
-  #bradContainer #bradContent #bradT7 {
-    position: absolute;
-    left: 14px;
-    top: 149px;
-    width: 129px;
-    height: 114px;
-    background-image: url(../img/t7.png); }
-  #bradContainer #bradContent #bradT8 {
-    position: absolute;
-    left: 14px;
-    top: 115px;
-    width: 105px;
-    height: 29px;
-    background-image: url(../img/t8.png); }
-  #bradContainer #bradContent #bradT9 {
-    position: absolute;
-    left: 14px;
-    top: 148px;
-    width: 130px;
-    height: 38px;
-    background-image: url(../img/t9.png); }
-  #bradContainer #bradContent #bradFlare {
-    position: absolute;
-    width: 143px;
-    height: 98px;
-    top: 0px;
-    left: 67px;
-    background-image: url(../img/flare.png); }
-  #bradContainer #bradContent #bradKidney {
-    position: absolute;
-    width: 221px;
-    height: 145px;
-    top: 288px;
-    left: -45px;
-    background-image: url(../img/kidney.png); }
-  #bradContainer #bradContent #bradKidneyFlare {
-    position: absolute;
-    width: 151px;
-    height: 86px;
-    top: 284px;
-    left: 5px;
-    background-image: url(../img/glow.png); }
-  #bradContainer #bradContent #bradCtaContainer {
-    background: #fa7700;
-    position: absolute;
-    top: 482px;
-    left: 8px;
-    width: 142px;
-    height: 24px;
-    /*set clip property so that from() tween knows what the ending values should be */
-    clip: rect(0px, 142px, 24px, 0px); }
-    #bradContainer #bradContent #bradCtaContainer #bradCta {
+      left: 0;
+      top: 525px;
+      width: 160px;
+      height: 75px; }
+      #bradContainer #bradContent #bradLogoContainer #bradLogo {
+        background-image: url(../img/logo.png);
+        width: 82px;
+        height: 22px;
+        position: absolute;
+        left: 39px;
+        top: 28px; }
+    #bradContainer #bradContent #bradT1 {
       position: absolute;
-      width: 132px;
-      height: 12px;
-      left: 6px;
-      top: 7px;
-      background-image: url(../img/ctatxt.png); }
+      left: 14px;
+      top: 197px;
+      width: 136px;
+      height: 118px;
+      background-image: url(../img/t1.png); }
+    #bradContainer #bradContent #bradT2 {
+      position: absolute;
+      left: 27px;
+      top: 212px;
+      width: 105px;
+      height: 46px;
+      background-image: url(../img/t2.png); }
+    #bradContainer #bradContent #bradT3 {
+      position: absolute;
+      left: 14px;
+      top: 316px;
+      width: 50px;
+      height: 26px;
+      background-image: url(../img/t3.png); }
+    #bradContainer #bradContent #bradT4 {
+      position: absolute;
+      left: 14px;
+      top: 345px;
+      width: 133px;
+      height: 26px;
+      background-image: url(../img/t4.png); }
+    #bradContainer #bradContent #bradT5 {
+      position: absolute;
+      left: 19px;
+      top: 191px;
+      width: 101px;
+      height: 24px;
+      background-image: url(../img/t5.png); }
+    #bradContainer #bradContent #bradT6 {
+      position: absolute;
+      left: 19px;
+      top: 221px;
+      width: 117px;
+      height: 24px;
+      background-image: url(../img/t6.png); }
+    #bradContainer #bradContent #bradT7 {
+      position: absolute;
+      left: 14px;
+      top: 149px;
+      width: 129px;
+      height: 114px;
+      background-image: url(../img/t7.png); }
+    #bradContainer #bradContent #bradT8 {
+      position: absolute;
+      left: 14px;
+      top: 115px;
+      width: 105px;
+      height: 29px;
+      background-image: url(../img/t8.png); }
+    #bradContainer #bradContent #bradT9 {
+      position: absolute;
+      left: 14px;
+      top: 148px;
+      width: 130px;
+      height: 38px;
+      background-image: url(../img/t9.png); }
+    #bradContainer #bradContent #bradFlare {
+      position: absolute;
+      width: 143px;
+      height: 98px;
+      top: 0px;
+      left: 67px;
+      background-image: url(../img/flare.png); }
+    #bradContainer #bradContent #bradKidney {
+      position: absolute;
+      width: 221px;
+      height: 145px;
+      top: 288px;
+      left: -45px;
+      background-image: url(../img/kidney.png); }
+    #bradContainer #bradContent #bradKidneyFlare {
+      position: absolute;
+      width: 151px;
+      height: 86px;
+      top: 278px;
+      left: 8px;
+      background-image: url(../img/glow.png); }
+    #bradContainer #bradContent #bradCtaContainer {
+      background: #fa7700;
+      position: absolute;
+      top: 482px;
+      left: 8px;
+      width: 142px;
+      height: 24px;
+      /*set clip property so that from() tween knows what the ending values should be */
+      clip: rect(0px, 142px, 24px, 0px); }
+      #bradContainer #bradContent #bradCtaContainer #bradCta {
+        position: absolute;
+        width: 132px;
+        height: 12px;
+        left: 6px;
+        top: 7px;
+        background-image: url(../img/ctatxt.png); }
 
 /**
 --------------------------UI---------------------------

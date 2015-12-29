@@ -11,25 +11,25 @@ function playAd(){
     var ttl = new TimelineLite();
     ttl.from("#bradT1", .8, {y:-50, opacity:0,ease: Power3.easeOut}, 0)
        .to("#bradT1", .8, {y:-50, opacity:0,ease: Power3.easeOut}, 3)
-       .from("#bradT2", .8, {x:-80, opacity:0,ease: Power3.easeOut}, "-=.4")
-       .to("#bradT2", .8, {x:80, opacity:0,ease: Power3.easeOut}, "+=1")
-       .from("#bradT3", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "-=.4")
-       .from("#bradT4", .8, {x:80, opacity:0,ease: Power3.easeOut}, "-=.6")
-       .to("#bradT3", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "+=1")
+       .from("#bradT2", .8, {x:-80, opacity:0,ease: Power3.easeOut}, "-=.6")
+       .to("#bradT2", .8, {x:140, opacity:0,ease: Power3.easeOut}, "+=1.2")
+       .from("#bradT3", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "-=.8")
+       .from("#bradT4", .8, {x:80, opacity:0,ease: Power3.easeOut}, "-=.8")
+       .to("#bradT3", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "+=1.2")
        .to("#bradT4", .8, {x:80, opacity:0,ease: Power3.easeOut}, "-=.6")
-       .from("#bradT5", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "-=.6")
-       .from("#bradT6", .8, {y:120, opacity:0,ease: Power3.easeOut}, "-=.6")
-       .to("#bradT5", .8, {x:80, opacity:0,ease: Power3.easeOut}, "+=1")
+       .from("#bradT5", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "-=.8")
+       .from("#bradT6", .8, {y:120, opacity:0,ease: Power3.easeOut}, "-=.8")
+       .to("#bradT5", .8, {x:80, opacity:0,ease: Power3.easeOut}, "+=1.2")
        .to("#bradT6", .8, {x:80, opacity:0,ease: Power3.easeOut}, "-=.8")
-       .from("#bradT7", .8, {x:-80, opacity:0,ease: Power3.easeOut}, "-=.6")
-       .to("#bradT7", .8, {x:80, opacity:0,ease: Power3.easeOut}, "+=1")
+       .from("#bradT7", .8, {x:-80, opacity:0,ease: Power3.easeOut}, "-=.8")
+       .to("#bradT7", .8, {x:80, opacity:0,ease: Power3.easeOut}, "+=1.4")
        .from("#bradT8", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "-=.6")
        .from("#bradT9", .8, {y:-80, opacity:0,ease: Power3.easeOut}, "-=.8");
     
     var ctl = new TimelineLite();
         ctl.from("#bradKidney", 3, {opacity:0, scale:0,x:-20, ease: Power2.easeOut})
        .from("#bradFlare", 1.5, {x:-320, opacity:0,ease: Power3.easeOut}, "-=1.6")
-       .from("#bradCtaContainer", .8, {clip:"rect(0px 0px 182px 0px)", opacity:0,ease: Power3.easeOut}, "-=1.4")
+       .from("#bradCtaContainer", .8, {clip:"rect(0px 0px 170px 0px)", opacity:0,ease: Power3.easeOut}, "-=1.4")
        .from("#bradCta", .8, {opacity:0, ease: Power3.easeOut}, "-=.6")
        .from("#bradKidneyFlare", 1.5, {opacity:0, ease: Power3.easeOut}, "-=.6");
     

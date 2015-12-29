@@ -22,6 +22,8 @@
     
     #bradContent
     {
+        cursor:pointer;
+        
         .bradSwoosh{
             background-image: url(../img/swoosh.svg);
             width: 690px;
@@ -142,8 +144,8 @@
             position:absolute;
             width:151px;
             height:86px;
-            top:284px;
-            left:5px;
+            top:278px;
+            left:8px;
             background-image: url(../img/glow.png);
         }
         #bradCtaContainer{
