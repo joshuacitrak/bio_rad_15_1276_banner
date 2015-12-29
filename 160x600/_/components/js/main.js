@@ -28,7 +28,7 @@ function playAd(){
     var ctl = new TimelineLite();
         ctl.from("#bradKidney", 3, {opacity:0, scale:0,x:20, ease: Power2.easeOut})
        .from("#bradFlare", 1.5, {x:-120, opacity:0,ease: Power3.easeOut}, "-=1.6")
-       .from("#bradCtaContainer", .8, {clip:"rect(0px 0px 142px 0px)", opacity:0,ease: Power3.easeOut}, "-=1.6")
+       .from("#bradCtaContainer", .8, {clip:"rect(0px 0px 146px 0px)", opacity:0,ease: Power3.easeOut}, "-=1.6")
        .from("#bradCta", .8, {opacity:0, ease: Power3.easeOut}, "-=.8")
        .from("#bradKidneyFlare", 1.5, {opacity:0, ease: Power3.easeOut}, "-=.6");
     

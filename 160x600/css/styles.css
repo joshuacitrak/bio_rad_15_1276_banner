@@ -152,7 +152,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
       width: 143px;
       height: 98px;
       top: 0px;
-      left: 67px;
+      left: 63px;
       background-image: url(../img/flare.png); }
     #bradContainer #bradContent #bradKidney {
       position: absolute;
@@ -173,15 +173,15 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
       position: absolute;
       top: 482px;
       left: 8px;
-      width: 142px;
+      width: 146px;
       height: 24px;
       /*set clip property so that from() tween knows what the ending values should be */
-      clip: rect(0px, 142px, 24px, 0px); }
+      clip: rect(0px, 146px, 24px, 0px); }
       #bradContainer #bradContent #bradCtaContainer #bradCta {
         position: absolute;
         width: 132px;
         height: 12px;
-        left: 6px;
+        left: 7px;
         top: 7px;
         background-image: url(../img/ctatxt.png); }
 
