@@ -3,8 +3,8 @@
     font-family: sans-serif;
     font-size:20px;
     color:#ffffff;
-    width:160px;
-    height:600px;
+    width:120px;
+    height:240px;
     border: 1px solid #666;
     border: 1px solid #666;
     position:relative;
@@ -26,8 +26,8 @@
         
         .bradSwoosh{
             background-image: url(../img/swoosh.svg);
-            width: 690px;
-            height: 550px;
+            width: 345px;
+            height: 275px;
             position: absolute;
         }
         
@@ -40,130 +40,138 @@
             background:#fff;
             position:absolute;
             left:0;
-            top:525px;
-            width:160px;
-            height:75px;
+            top:216px;
+            width:120px;
+            height:34px;
             #bradLogo{
                 background-image: url(../img/logo.png);
-                width:82px;
-                height:22px;
+                width:38px;
+                height:10px;
                 position:absolute;
-                left:39px;
-                top:28px;
+                left:74px;
+                top:7px;
             }
         }
         #bradT1{
             position:absolute;
-            left:14px;
-            top:197px;
-            width:136px;
-            height: 118px;
+            left:15px;
+            top:82px;
+            width:88px;
+            height: 54px;
             background-image: url(../img/t1.png);
         }
         #bradT2{
             position:absolute;
-            left:27px;
-            top:212px;
-            width: 105px;
-            height: 46px;
+            left:22px;
+            top:137px;
+            width: 76px;
+            height: 34px;
             background-image: url(../img/t2.png);
         }
         #bradT3{
             position:absolute;
-            left:14px;
-            top:316px;
-            width: 50px;
-            height: 26px;
+            left:12px;
+            top:52px;
+            width: 32px;
+            height: 18px;
             background-image: url(../img/t3.png);
         }
         #bradT4{
             position:absolute;
-            left:14px;
-            top:345px;
-            width: 133px;
-            height: 26px;
+            left:12px;
+            top:73px;
+            width: 89px;
+            height: 18px;
             background-image: url(../img/t4.png);
         }
         #bradT5{
             position:absolute;
-            left:19px;
-            top:191px;
-            width: 101px;
-            height: 24px;
+            left:45px;
+            top:73px;
+            width: 60px;
+            height: 15px;
             background-image: url(../img/t5.png);
         }
         #bradT6{
             position:absolute;
-            left:19px;
-            top:221px;
-            width: 117px;
-            height: 24px;
+            left:45px;
+            top:94px;
+            width: 69px;
+            height: 15px;
             background-image: url(../img/t6.png);
         }
         #bradT7{
             position:absolute;
-            left:14px;
-            top:149px;
-            width:129px;
-            height: 114px;
+            left:5px;
+            top:70px;
+            width:38px;
+            height: 13px;
             background-image: url(../img/t7.png);
         }
         #bradT8{
             position:absolute;
-            left:14px;
-            top:115px;
-            width: 105px;
-            height: 29px;
+            left:5px;
+            top:88px;
+            width: 113px;
+            height: 11px;
             background-image: url(../img/t8.png);
         }
         #bradT9{
             position:absolute;
-            left:14px;
-            top:148px;
-            width: 130px;
-            height: 38px;
+            left:5px;
+            top:5px;
+            width: 101px;
+            height: 8px;
             background-image: url(../img/t9.png);
+        }
+        #bradT10{
+            position:absolute;
+            left:5px;
+            top:16px;
+            width: 110px;
+            height: 29px;
+            background-image: url(../img/t10.png);
         }
         #bradFlare{
             position:absolute;
-            width:143px;
-            height:98px;
+            width:48px;
+            height:48px;
             top:0px;
-            left:63px;
+            left:74px;
             background-image: url(../img/flare.png);
         }
         #bradKidney{
             position:absolute;
-            width:221px;
-            height:145px;
-            top:288px;
-            left:-45px;
+            width:120px;
+            height:240px;
+            top:0px;
+            left:0px;
             background-image: url(../img/kidney.png);
         }
         #bradKidneyFlare{
             position:absolute;
-            width:151px;
-            height:86px;
-            top:278px;
-            left:8px;
+            width:120px;
+            height:114px;
+            top:71px;
+            left:0px;
             background-image: url(../img/glow.png);
         }
         #bradCtaContainer{
             background:#fa7700;
                 position:absolute;
-                top:482px;
-                left:8px;
-                width:146px;
-                height:24px;
+                top:225px;
+                left:5px;
+                width:60px;
+                height:10px;
                 /*set clip property so that from() tween knows what the ending values should be */
-                clip:rect(0px, 146px, 24px, 0px);
+                clip:rect(0px, 60px, 10px, 0px);
             
             #bradCta{
                 position: absolute;
-                width:132px;
-                height:12px;
-                left:7px;
-                top:7px;
+                width:53px;
+                height:5px;
+                left:3px;
+                top:2px;
                 background-image: url(../img/ctatxt.png);
             }
         }
