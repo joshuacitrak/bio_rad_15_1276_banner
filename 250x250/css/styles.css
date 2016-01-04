@@ -96,7 +96,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
       background-image: url(../img/t1.png); }
     #bradContainer #bradContent #bradT2 {
       position: absolute;
-      left: 65px;
+      left: 46px;
       top: 50px;
       width: 157px;
       height: 70px;
@@ -105,7 +105,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
       position: absolute;
       left: 12px;
       top: 84px;
-      width: 52px;
+      width: 67px;
       height: 35px;
       background-image: url(../img/t3.png); }
     #bradContainer #bradContent #bradT4 {
@@ -185,7 +185,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
       left: 12px;
       width: 124px;
       height: 24px;
-      /*set clip property so that from() tween knows what the ending values should be */ }
+      /*set clip property so that from() tween knows what the ending values should be */
+      clip: rect(0px, 124px, 24px, 0px); }
       #bradContainer #bradContent #bradCtaContainer #bradCta {
         position: absolute;
         width: 108px;

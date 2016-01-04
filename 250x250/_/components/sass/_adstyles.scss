@@ -64,7 +64,7 @@
         }
         #bradT2{
             position:absolute;
-            left:65px;
+            left:46px;
             top:50px;
             width: 157px;
             height: 70px;
@@ -74,7 +74,7 @@
             position:absolute;
             left:12px;
             top:84px;
-            width: 52px;
+            width: 67px;
             height: 35px;
             background-image: url(../img/t3.png);
         }
@@ -166,7 +166,7 @@
                 width:124px;
                 height:24px;
                 /*set clip property so that from() tween knows what the ending values should be */
-                //clip:rect(0px, 124px, 24px, 0px);
+                clip:rect(0px, 124px, 24px, 0px);
             
             #bradCta{
                 position: absolute;
