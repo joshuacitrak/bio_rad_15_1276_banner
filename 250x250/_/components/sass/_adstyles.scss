@@ -1,0 +1,200 @@
+#bradContainer
+{
+    font-family: sans-serif;
+    font-size:20px;
+    color:#ffffff;
+    width:250px;
+    height:250px;
+    border: 1px solid #666;
+    border: 1px solid #666;
+    position:relative;
+    overflow:hidden;
+    text-decoration: none;
+    background:#33a749;
+   -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)"; // IE8
+
+          /* This works in IE 8 & 9 too */
+          /* ... but also 5, 6, 7 */
+         filter: alpha(opacity=0); // IE 5-7
+
+          /* Modern Browsers */
+          opacity: 0;
+    
+    #bradContent
+    {
+        cursor:pointer;
+        
+        .bradSwoosh{
+            background-image: url(../img/swoosh.svg);
+            width: 614px;
+            height: 490px;
+            position: absolute;
+        }
+        
+        #bradSvg1Container{
+            top: -220px;
+            left: -190px;
+        }
+        #bradSvg2Container{
+            //top: -200px;
+        }
+        #bradLogoContainer{
+            background:#fff;
+            position:absolute;
+            left:0;
+            top:202px;
+            width:250px;
+            height:48px;
+            #bradLogo{
+                background-image: url(../img/logo.png);
+                width:79px;
+                height:20px;
+                position:absolute;
+                left:153px;
+                top:14px;
+            }
+        }
+        #bradT1{
+            position:absolute;
+            left:34px;
+            top:46px;
+            width:183px;
+            height: 111px;
+            background-image: url(../img/t1.png);
+        }
+        #bradT2{
+            position:absolute;
+            left:65px;
+            top:50px;
+            width: 157px;
+            height: 70px;
+            background-image: url(../img/t2.png);
+        }
+        #bradT3{
+            position:absolute;
+            left:12px;
+            top:84px;
+            width: 52px;
+            height: 35px;
+            background-image: url(../img/t3.png);
+        }
+        #bradT4{
+            position:absolute;
+            left:12px;
+            top:125px;
+            width: 183px;
+            height: 35px;
+            background-image: url(../img/t4.png);
+        }
+        #bradT5{
+            position:absolute;
+            left:83px;
+            top:70px;
+            width: 123px;
+            height: 30px;
+            background-image: url(../img/t5.png);
+        }
+        #bradT6{
+            position:absolute;
+            left:83px;
+            top:107px;
+            width: 144px;
+            height: 30px;
+            background-image: url(../img/t6.png);
+        }
+        #bradT7{
+            position:absolute;
+            left:12px;
+            top:62px;
+            width:78px;
+            height: 26px;
+            background-image: url(../img/t7.png);
+        }
+        #bradT8{
+            position:absolute;
+            left:12px;
+            top:98px;
+            width: 226px;
+            height: 20px;
+            background-image: url(../img/t8.png);
+        }
+        #bradT9{
+            position:absolute;
+            left:12px;
+            top:10px;
+            width: 181px;
+            height: 14px;
+            background-image: url(../img/t9.png);
+        }
+        #bradT10{
+            position:absolute;
+            left:12px;
+            top:32px;
+            width: 195px;
+            height: 51px;
+            background-image: url(../img/t10.png);
+        }
+        #bradFlare{
+            position:absolute;
+            width:99px;
+            height:98px;
+            top:0px;
+            left:155px;
+            background-image: url(../img/flare.png);
+        }
+        #bradKidney{
+            position:absolute;
+            width:250px;
+            height:250px;
+            top:0px;
+            left:0px;
+            background-image: url(../img/kidney.png);
+        }
+        #bradKidneyFlare{
+            position:absolute;
+            width:300px;
+            height:250px;
+            top:10px;
+            left:-20px;
+            background-image: url(../img/glow.png);
+        }
+        #bradCtaContainer{
+            background:#fa7700;
+                position:absolute;
+                top:214px;
+                left:12px;
+                width:124px;
+                height:24px;
+                /*set clip property so that from() tween knows what the ending values should be */
+                //clip:rect(0px, 124px, 24px, 0px);
+            
+            #bradCta{
+                position: absolute;
+                width:108px;
+                height:9px;
+                left:8px;
+                top:8px;
+                background-image: url(../img/ctatxt.png);
+            }
+        }
+    }
+}
+/**
+--------------------------UI---------------------------
+**/
+button {
+    padding: 10px;
+    margin-top: 10px;
+}
+
+button:nth-child(1){
+  margin-left:10px;
+}
+
+#slider{
+  width: 250px;
+  height:10px;
+    margin-top:10px;
+  background: rgba(80,80,80,0.3);
+  border:1px solid rgba(102,102,102,0.5);
+}
