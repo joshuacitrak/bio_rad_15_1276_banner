@@ -1,10 +1,10 @@
 function playAd(){  
      var stl = new TimelineLite();
-    stl.to("#bradSvg1Container", 15, {  x:120, y:135, scale:.5,rotation:-10}, "swoosh")
-        .to("#bradSvg1Container", 7.5, { scale:.7,rotationX:-40,  z:100, force3D:true}, "swoosh")
+    stl.from("#bradSvg1Container", 15, {  x:-200, y:5, scale:1.2, rotationX:30, rotationZ:10, rotationY:30, z:100, force3D:true}, "swoosh")
+        //.to("#bradSvg1Container", 7.5, { scale:.7,rotationX:-40,  z:100, force3D:true}, "swoosh")
        .to("#bradSvg2Container", 3, {rotationX:40, x:-190, scale:1.2, z:-300, force3D:true}, "swoosh")
        .to("#bradSvg2Container", 3, {rotationX:0,  x:-150, scale:1, z:-100,force3D:true}, 3)
-       .to("#bradSvg1Container", 7.5, { scale:.6,rotationX:30,  z:0, force3D:true}, 7.5)
+       //.to("#bradSvg1Container", 7.5, { scale:.6,rotationX:30,  z:0, force3D:true}, 7.5)
         .to("#bradSvg2Container", 3, {rotationX:-40,  x:-130, scale:1.2, z:0,force3D:true}, 6)
         .to("#bradSvg2Container", 3, {rotationX:-60,  x:-110 }, 9)
         .to("#bradSvg2Container", 3, {opacity:0, rotationX:-40,  x:-130, scale:1.4, ease: Power3.easeOut}, 12); 
@@ -38,7 +38,7 @@ function playAd(){
     
     tl.add(stl, 0)
     .add(ttl, 0)
-    .add(ctl, 11.5);
+    .add(ctl, 10.5);
     tl.totalDuration(15);
        
 };
@@ -66,9 +66,9 @@ function checkInit() {
                }         
                function onInit() {
                      CSSPlugin.defaultTransformPerspective = 750;
-    TweenLite.set("#bradContainer", {opacity:1});
-    TweenLite.set("#bradSvg2Container", {opacity:.8});
-    TweenLite.set("#bradSvg2Container", { scale:.4, rotation:180, x:-350, y:-200, opacity:.8});
+    TweenLite.set("#bradContainer", {opacity:1});                   
+    TweenLite.set("#bradSvg2Container", { scale:.4, rotation:180, x:-350, y:-200, opacity:.8});                   
+    TweenLite.set("#bradSvg1Container", { x:-50, y:-140, rotationZ:-20, rotationX:-55, scale:.7, force3D:true});
     addListeners();
     playAd();
               } 
