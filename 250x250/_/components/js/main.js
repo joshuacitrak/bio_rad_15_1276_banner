@@ -68,7 +68,7 @@ function checkInit() {
                      CSSPlugin.defaultTransformPerspective = 750;
     TweenLite.set("#bradContainer", {opacity:1});                   
     TweenLite.set("#bradSvg2Container", { scale:.4, rotation:180, x:-350, y:-200, opacity:.8});                   
-    TweenLite.set("#bradSvg1Container", { x:-50, y:-140, rotationZ:-20, rotationX:-55, scale:.7, force3D:true});
+    TweenLite.set("#bradSvg1Container", { x:-50, y:-135, rotationZ:-20, rotationX:-55, scale:.7, force3D:true});
     addListeners();
     playAd();
               } 
