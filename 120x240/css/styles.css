@@ -143,14 +143,14 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
     #bradContainer #bradContent #bradT9 {
       position: absolute;
       left: 5px;
-      top: 5px;
+      top: 10px;
       width: 91px;
       height: 25px;
       background-image: url(../img/t9.png); }
     #bradContainer #bradContent #bradT10 {
       position: absolute;
       left: 5px;
-      top: 37px;
+      top: 42px;
       width: 98px;
       height: 29px;
       background-image: url(../img/t10.png); }
@@ -172,8 +172,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
       position: absolute;
       width: 120px;
       height: 114px;
-      top: 75px;
-      left: 0px;
+      top: 76px;
+      left: -3px;
       background-image: url(../img/glow.png); }
     #bradContainer #bradContent #bradCtaContainer {
       background: #fa7700;

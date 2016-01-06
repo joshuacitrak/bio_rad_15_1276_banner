@@ -32,7 +32,7 @@ function playAd(){
        .from("#bradFlare", 1.5, {x:-120, opacity:0,ease: Power3.easeOut}, "-=1")
        .from("#bradCtaContainer", .8, {clip:"rect(0px 0px 105px 0px)", opacity:0,ease: Power3.easeOut}, "-=1.5")
        .from("#bradCta", .8, {opacity:0, ease: Power3.easeOut}, "-=.8")
-       .from("#bradKidneyFlare", 1.5, {opacity:0, ease: Power3.easeOut}, "-=.6");
+       .from("#bradKidneyFlare", 1.5, {opacity:0, ease: Power3.easeOut}, "-=.8");
     
     tl.add(stl, 0)
     .add(ttl, 0)
