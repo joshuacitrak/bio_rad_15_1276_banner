@@ -1,3 +1,10 @@
+body{ margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
 #bradContainer
 {
     font-family: sans-serif;
@@ -19,6 +26,7 @@
 
           /* Modern Browsers */
           opacity: 0;
+
     
     #bradContent
     {
@@ -110,7 +118,7 @@
         }
         #bradT8{
             position:absolute;
-            left:5px;
+            left:4px;
             top:88px;
             width: 113px;
             height: 11px;
@@ -118,16 +126,16 @@
         }
         #bradT9{
             position:absolute;
-            left:5px;
-            top:10px;
+            left:7px;
+            top:13px;
             width: 91px;
             height: 25px;
             background-image: url(../img/t9.png);
         }
         #bradT10{
             position:absolute;
-            left:5px;
-            top:42px;
+            left:7px;
+            top:45px;
             width: 98px;
             height: 29px;
             background-image: url(../img/t10.png);
@@ -152,8 +160,8 @@
             position:absolute;
             width:120px;
             height:114px;
-            top:76px;
-            left:-3px;
+            top:77px;
+            left:-6px;
             background-image: url(../img/glow.png);
         }
         #bradCtaContainer{
@@ -176,23 +184,4 @@
             }
         }
     }
-}
-/**
---------------------------UI---------------------------
-**/
-button {
-    padding: 10px;
-    margin-top: 10px;
-}
-
-button:nth-child(1){
-  margin-left:10px;
-}
-
-#slider{
-  width: 160px;
-  height:10px;
-    margin-top:10px;
-  background: rgba(80,80,80,0.3);
-  border:1px solid rgba(102,102,102,0.5);
 }
